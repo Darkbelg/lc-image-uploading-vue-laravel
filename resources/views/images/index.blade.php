@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Vue image uploading</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <meta name="csrf_token" content="{{ csrf_token() }}">
 </head>
 <body>
     <div class="max-w-lg mx-auto mt-24">
